@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../arcchivo_de_registro.srcs/sources_1/new/Arc_Reg.vhd" \
+"../../../../arcchivo_de_registro.srcs/sources_1/imports/Archivo de registros/Barrel.vhd" \
+"../../../../arcchivo_de_registro.srcs/sources_1/imports/new/demux_16.vhd" \
+"../../../../arcchivo_de_registro.srcs/sources_1/imports/new/mux2_1.vhd" \
+"../../../../arcchivo_de_registro.srcs/sources_1/imports/new/mux_16.vhd" \
+"../../../../arcchivo_de_registro.srcs/sources_1/imports/new/registro1.vhd" \
+"../../../../arcchivo_de_registro.srcs/sim_1/new/tb_arch_reg.vhd" \
+
+# Do not sort compile order
+nosort

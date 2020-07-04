@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat May 23 12:40:46 2020
+# Process ID: 1560
+# Current directory: C:/Users/Ray/Desktop/Arquitectura/Cartas_ASM/Cartas_ASM.runs/synth_1
+# Command line: vivado.exe -log ASM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ASM.tcl
+# Log file: C:/Users/Ray/Desktop/Arquitectura/Cartas_ASM/Cartas_ASM.runs/synth_1/ASM.vds
+# Journal file: C:/Users/Ray/Desktop/Arquitectura/Cartas_ASM/Cartas_ASM.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ASM.tcl -notrace

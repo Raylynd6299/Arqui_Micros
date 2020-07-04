@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1583434908">
+  <File Type="BITSTR-BMM" Name="aluN_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="aluN_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="aluN_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="aluN_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="aluN.tcl"/>
+  <File Type="OPT-TIMING" Name="aluN_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="aluN_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="aluN_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="aluN_reports.tcl"/>
+  <File Type="OPT-DRC" Name="aluN_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="aluN.hwdef"/>
+  <File Type="PWROPT-DCP" Name="aluN_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="aluN_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="aluN_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="aluN_placed.dcp"/>
+  <File Type="PLACE-IO" Name="aluN_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="aluN_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="aluN_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="aluN_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="aluN_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="aluN_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="aluN_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="aluN_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="aluN_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="aluN.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="aluN_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="aluN_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="aluN_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="aluN.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="aluN_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="aluN_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="aluN_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="aluN_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="aluN_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="aluN_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="aluN_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="aluN.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="aluN_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="aluN_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="aluN_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="aluN_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="aluN_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="aluN_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="aluN_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="aluN_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="aluN_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="aluN_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="aluN_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="aluN_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="aluN_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="aluN_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="aluN_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="aluN_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="aluN_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="aluN_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="aluN_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="aluN_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="aluN_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="aluN.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="aluN_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="aluN.rbt"/>
+  <File Type="BITSTR-NKY" Name="aluN.nky"/>
+  <File Type="PDI-FILE" Name="aluN.pdi"/>
+  <File Type="RCFI_FILE" Name="aluN.rcfi"/>
+  <File Type="CFI_FILE" Name="aluN.cfi"/>
+  <File Type="RNPI_FILE" Name="aluN.rnpi"/>
+  <File Type="NPI_FILE" Name="aluN.npi"/>
+  <File Type="RBD_FILE" Name="aluN.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="aluN.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="aluN.sysdef"/>
+  <File Type="BG-BGN" Name="aluN.bgn"/>
+  <File Type="BG-DRC" Name="aluN.drc"/>
+  <File Type="RDI-RDI" Name="aluN.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../alu1/alu1.srcs/sources_1/new/alu1.vhd"/>
+        <Attr Name="ImportTime" Val="1582663411"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/suma1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Sumadorestador/Sumadorestador.srcs/sources_1/new/suma1.vhd"/>
+        <Attr Name="ImportTime" Val="1582056878"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/aluN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="aluN"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pines_alun.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/pines_alun.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

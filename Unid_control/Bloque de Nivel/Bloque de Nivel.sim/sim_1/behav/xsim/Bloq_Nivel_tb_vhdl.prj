@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Bloque de Nivel.srcs/sources_1/new/Bloq_Nivel.vhd" \
+"../../../../Bloque de Nivel.srcs/sim_1/new/Bloq_Nivel_tb.vhd" \
+
+# Do not sort compile order
+nosort

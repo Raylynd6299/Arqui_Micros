@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ray/Desktop/Arquitectura/Unid_control/Bloque de Nivel/Bloque de Nivel.srcs/sources_1/new/Bloq_Nivel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Bloq_Nivel'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ray/Desktop/Arquitectura/Unid_control/Bloque de Nivel/Bloque de Nivel.srcs/sim_1/new/Bloq_Nivel_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Bloq_Nivel_tb'

@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../UC_F.srcs/sources_1/imports/new/Bloq_Cond.vhd" \
+"../../../../UC_F.srcs/sources_1/imports/new/Bloq_Nivel.vhd" \
+"../../../../UC_F.srcs/sources_1/imports/new/Deco_Instru.vhd" \
+"../../../../UC_F.srcs/sources_1/imports/new/MfunCode.vhd" \
+"../../../../UC_F.srcs/sources_1/imports/new/MopCode.vhd" \
+"../../../../UC_F.srcs/sources_1/imports/new/Mux20.vhd" \
+"../../../../UC_F.srcs/sources_1/imports/new/Mux5.vhd" \
+"../../../../UC_F.srcs/sources_1/imports/new/Registro.vhd" \
+"../../../../UC_F.srcs/sources_1/new/UC_F.vhd" \
+"../../../../UC_F.srcs/sources_1/imports/new/Uni_Con.vhd" \
+"../../../../UC_F.srcs/sim_1/new/UC_F_tb.vhd" \
+
+# Do not sort compile order
+nosort

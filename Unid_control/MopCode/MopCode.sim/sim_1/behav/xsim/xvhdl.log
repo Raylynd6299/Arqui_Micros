@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ray/Desktop/Arquitectura/Unid_control/MopCode/MopCode.srcs/sources_1/new/MopCode.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MopCode'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ray/Desktop/Arquitectura/Unid_control/MopCode/MopCode.srcs/sim_1/new/MopCode_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MopCode_tb'

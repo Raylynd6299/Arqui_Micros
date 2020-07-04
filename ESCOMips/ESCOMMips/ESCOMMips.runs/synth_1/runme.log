@@ -1,0 +1,677 @@
+
+*** Running vivado
+    with args -log ESCOMMips.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ESCOMMips.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source ESCOMMips.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 425.441 ; gain = 131.266
+Command: synth_design -top ESCOMMips -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2220 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 688.582 ; gain = 238.059
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ESCOMMips' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:14]
+INFO: [Synth 8-3491] module 'UC_F' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:4' bound to instance 'UC_F_escom' of component 'UC_F' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'UC_F' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:11]
+INFO: [Synth 8-3491] module 'MfunCode' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/MfunCode/MfunCode.srcs/sources_1/new/MfunCode.vhd:5' bound to instance 'MfunCode_tb' of component 'MfunCode' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'MfunCode' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/MfunCode/MfunCode.srcs/sources_1/new/MfunCode.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'MfunCode' (1#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/MfunCode/MfunCode.srcs/sources_1/new/MfunCode.vhd:10]
+INFO: [Synth 8-3491] module 'Mux5' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Mux5/Mux5.srcs/sources_1/new/Mux5.vhd:4' bound to instance 'Mux5_tb' of component 'Mux5' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'Mux5' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Mux5/Mux5.srcs/sources_1/new/Mux5.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Mux5' (2#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Mux5/Mux5.srcs/sources_1/new/Mux5.vhd:10]
+INFO: [Synth 8-3491] module 'MopCode' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/MopCode/MopCode.srcs/sources_1/new/MopCode.vhd:5' bound to instance 'MopCode_tb' of component 'MopCode' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'MopCode' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/MopCode/MopCode.srcs/sources_1/new/MopCode.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'MopCode' (3#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/MopCode/MopCode.srcs/sources_1/new/MopCode.vhd:10]
+INFO: [Synth 8-3491] module 'Mux20' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Mux20/Mux20.srcs/sources_1/new/Mux20.vhd:4' bound to instance 'Mux20_tb' of component 'Mux20' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'Mux20' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Mux20/Mux20.srcs/sources_1/new/Mux20.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Mux20' (4#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Mux20/Mux20.srcs/sources_1/new/Mux20.vhd:10]
+INFO: [Synth 8-3491] module 'Deco_Instru' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Deco_Instru/Deco_Instru.srcs/sources_1/new/Deco_Instru.vhd:4' bound to instance 'Deco_Instru_tb' of component 'Deco_Instru' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'Deco_Instru' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Deco_Instru/Deco_Instru.srcs/sources_1/new/Deco_Instru.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Deco_Instru' (5#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Deco_Instru/Deco_Instru.srcs/sources_1/new/Deco_Instru.vhd:9]
+INFO: [Synth 8-3491] module 'Bloq_Nivel' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Bloque de Nivel/Bloque de Nivel.srcs/sources_1/new/Bloq_Nivel.vhd:4' bound to instance 'Bloq_Nivel_tb' of component 'Bloq_Nivel' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'Bloq_Nivel' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Bloque de Nivel/Bloque de Nivel.srcs/sources_1/new/Bloq_Nivel.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Bloq_Nivel' (6#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Bloque de Nivel/Bloque de Nivel.srcs/sources_1/new/Bloq_Nivel.vhd:9]
+INFO: [Synth 8-3491] module 'Registro' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Registro/Registro.srcs/sources_1/new/Registro.vhd:4' bound to instance 'Registro_tb' of component 'Registro' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'Registro' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Registro/Registro.srcs/sources_1/new/Registro.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Registro' (7#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Registro/Registro.srcs/sources_1/new/Registro.vhd:10]
+INFO: [Synth 8-3491] module 'Bloq_Cond' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Bloq_Cond/Bloq_Cond.srcs/sources_1/new/Bloq_Cond.vhd:4' bound to instance 'Bloq_Cond_tb' of component 'Bloq_Cond' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'Bloq_Cond' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Bloq_Cond/Bloq_Cond.srcs/sources_1/new/Bloq_Cond.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Bloq_Cond' (8#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Bloq_Cond/Bloq_Cond.srcs/sources_1/new/Bloq_Cond.vhd:9]
+INFO: [Synth 8-3491] module 'Uni_Con' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Uni_Con/Uni_Con.srcs/sources_1/new/Uni_Con.vhd:4' bound to instance 'Uni_Con_tb' of component 'Uni_Con' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'Uni_Con' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Uni_Con/Uni_Con.srcs/sources_1/new/Uni_Con.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Uni_Con' (9#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/Uni_Con/Uni_Con.srcs/sources_1/new/Uni_Con.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'UC_F' (10#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd:11]
+INFO: [Synth 8-3491] module 'SDMP' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SDMP/SDMP.srcs/sources_1/new/SDMP.vhd:4' bound to instance 'SDMP_escom' of component 'SDMP' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'SDMP' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SDMP/SDMP.srcs/sources_1/new/SDMP.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'SDMP' (11#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SDMP/SDMP.srcs/sources_1/new/SDMP.vhd:10]
+	Parameter N bound to: 3 - type: integer 
+	Parameter M bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'pila' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/pila.vhd:7' bound to instance 'pila_escom' of component 'pila' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'pila' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/pila.vhd:22]
+	Parameter N bound to: 3 - type: integer 
+	Parameter M bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pila' (12#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/pila.vhd:22]
+	Parameter Bits_bus_instruc bound to: 25 - type: integer 
+	Parameter Bits_bus_dir bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'mem_program' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/mem_program.vhd:5' bound to instance 'mem_program_escom' of component 'mem_program' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'mem_program' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/mem_program.vhd:12]
+	Parameter Bits_bus_instruc bound to: 25 - type: integer 
+	Parameter Bits_bus_dir bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mem_program' (13#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/mem_program.vhd:12]
+INFO: [Synth 8-3491] module 'SR2' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SR2/SR2.srcs/sources_1/new/SR2.vhd:4' bound to instance 'SR2_escom' of component 'SR2' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'SR2' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SR2/SR2.srcs/sources_1/new/SR2.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'SR2' (14#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SR2/SR2.srcs/sources_1/new/SR2.vhd:10]
+INFO: [Synth 8-3491] module 'SWD' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SWD/SWD.srcs/sources_1/new/SWD.vhd:4' bound to instance 'SWD_escom' of component 'SWD' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'SWD' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SWD/SWD.srcs/sources_1/new/SWD.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'SWD' (15#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SWD/SWD.srcs/sources_1/new/SWD.vhd:10]
+INFO: [Synth 8-3491] module 'extDIR' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/extDIR/extDIR.srcs/sources_1/new/extDIR.vhd:5' bound to instance 'extDIR_escom' of component 'extDIR' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'extDIR' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/extDIR/extDIR.srcs/sources_1/new/extDIR.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'extDIR' (16#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/extDIR/extDIR.srcs/sources_1/new/extDIR.vhd:10]
+INFO: [Synth 8-3491] module 'extSIG' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/extSIG/extSIG.srcs/sources_1/new/extSIG.vhd:5' bound to instance 'extSIG_escom' of component 'extSIG' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'extSIG' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/extSIG/extSIG.srcs/sources_1/new/extSIG.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'extSIG' (17#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/extSIG/extSIG.srcs/sources_1/new/extSIG.vhd:10]
+INFO: [Synth 8-3491] module 'SEXT' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SEXT/SEXT.srcs/sources_1/new/SEXT.vhd:4' bound to instance 'SEXT_escom' of component 'SEXT' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'SEXT' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SEXT/SEXT.srcs/sources_1/new/SEXT.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'SEXT' (18#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SEXT/SEXT.srcs/sources_1/new/SEXT.vhd:10]
+INFO: [Synth 8-3491] module 'Arc_Reg' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:4' bound to instance 'Arc_Reg_escom' of component 'Arc_Reg' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'Arc_Reg' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:16]
+INFO: [Synth 8-3491] module 'demux_16' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/demux16/demux16.srcs/sources_1/new/demux_16.vhd:3' bound to instance 'WR_writeregister' of component 'demux_16' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'demux_16' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/demux16/demux16.srcs/sources_1/new/demux_16.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'demux_16' (19#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/demux16/demux16.srcs/sources_1/new/demux_16.vhd:10]
+INFO: [Synth 8-3491] module 'Barrel' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/Barrel/Barrel.srcs/sources_1/imports/Archivo de registros/Barrel.vhd:7' bound to instance 'Barrel_shifter' of component 'Barrel' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'Barrel' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/Barrel/Barrel.srcs/sources_1/imports/Archivo de registros/Barrel.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Barrel' (20#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/Barrel/Barrel.srcs/sources_1/imports/Archivo de registros/Barrel.vhd:14]
+INFO: [Synth 8-3491] module 'mux2_1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/mux2_a_1/mux2_a_1.srcs/sources_1/new/mux2_1.vhd:4' bound to instance 'entrada_registros' of component 'mux2_1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'mux2_1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/mux2_a_1/mux2_a_1.srcs/sources_1/new/mux2_1.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'mux2_1' (21#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/mux2_a_1/mux2_a_1.srcs/sources_1/new/mux2_1.vhd:10]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'registro1' (22#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:11]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'registro1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/registro/registro.srcs/sources_1/new/registro1.vhd:5' bound to instance 'Registros' of component 'registro1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:88]
+INFO: [Synth 8-3491] module 'mux_16' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/multiplexor16/multiplexor16.srcs/sources_1/new/mux_16.vhd:5' bound to instance 'muxreadData1' of component 'mux_16' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'mux_16' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/multiplexor16/multiplexor16.srcs/sources_1/new/mux_16.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'mux_16' (23#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/multiplexor16/multiplexor16.srcs/sources_1/new/mux_16.vhd:26]
+INFO: [Synth 8-3491] module 'mux_16' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Archivo_de_registros/multiplexor16/multiplexor16.srcs/sources_1/new/mux_16.vhd:5' bound to instance 'muxreadData2' of component 'mux_16' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:117]
+INFO: [Synth 8-256] done synthesizing module 'Arc_Reg' (24#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/Arc_Reg.vhd:16]
+INFO: [Synth 8-3491] module 'SEXT' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SEXT/SEXT.srcs/sources_1/new/SEXT.vhd:4' bound to instance 'SOP1_escom' of component 'SEXT' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:114]
+INFO: [Synth 8-3491] module 'SEXT' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SEXT/SEXT.srcs/sources_1/new/SEXT.vhd:4' bound to instance 'SOP2_escom' of component 'SEXT' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:122]
+	Parameter num_bits bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'aluN' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:4' bound to instance 'ALU_escom' of component 'aluN' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'aluN' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:13]
+	Parameter num_bits bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:11]
+INFO: [Synth 8-3491] module 'suma1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/Sumadorestador/Sumadorestador.srcs/sources_1/new/suma1.vhd:4' bound to instance 'sumador1' of component 'suma1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'suma1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/Sumadorestador/Sumadorestador.srcs/sources_1/new/suma1.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'suma1' (25#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/Sumadorestador/Sumadorestador.srcs/sources_1/new/suma1.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'alu1' (26#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:11]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/Arquitectura/alu1/alu1.srcs/sources_1/new/alu1.vhd:4' bound to instance 'bitA' of component 'alu1' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'aluN' (27#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/aluN.vhd:13]
+INFO: [Synth 8-3491] module 'SEXT' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SEXT/SEXT.srcs/sources_1/new/SEXT.vhd:4' bound to instance 'SDMD_escom' of component 'SEXT' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:142]
+	Parameter Bits_bus_dato bound to: 16 - type: integer 
+	Parameter Bits_bus_dir bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'memo_dato' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/memo_dato.vhd:5' bound to instance 'memo_dato_Escom' of component 'memo_dato' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'memo_dato' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/memo_dato.vhd:15]
+	Parameter Bits_bus_dato bound to: 16 - type: integer 
+	Parameter Bits_bus_dir bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memo_dato' (28#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/new/memo_dato.vhd:15]
+INFO: [Synth 8-3491] module 'SEXT' declared at 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/imports/ESCOMips/SEXT/SEXT.srcs/sources_1/new/SEXT.vhd:4' bound to instance 'SR_escom' of component 'SEXT' [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:159]
+INFO: [Synth 8-256] done synthesizing module 'ESCOMMips' (29#1) [C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.srcs/sources_1/new/ESCOMMips.vhd:14]
+WARNING: [Synth 8-3331] design Bloq_Cond has unconnected port Q[3]
+WARNING: [Synth 8-3331] design Bloq_Cond has unconnected port Q[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 762.086 ; gain = 311.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 762.086 ; gain = 311.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 762.086 ; gain = 311.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 762.086 ; gain = 311.563
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 50    
+	   3 Input      1 Bit         XORs := 16    
++---Registers : 
+	               16 Bit    Registers := 24    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 21    
+	  17 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 4     
+	   2 Input     14 Bit        Muxes := 4     
+	   2 Input     13 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 4     
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input     10 Bit        Muxes := 4     
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 102   
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 33    
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Mux5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module Mux20 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+Module Deco_Instru 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+Module Bloq_Nivel 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                1 Bit    Registers := 2     
+Module Registro 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module SDMP 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module pila 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 8     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 49    
+Module SR2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module SWD 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module extSIG 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module SEXT 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module demux_16 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input     16 Bit        Muxes := 1     
+Module Barrel 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 9     
+	   2 Input     15 Bit        Muxes := 4     
+	   2 Input     14 Bit        Muxes := 4     
+	   2 Input     13 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 4     
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input     10 Bit        Muxes := 4     
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 49    
+Module mux2_1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module registro1 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module suma1 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+Module alu1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 2     
+Module aluN 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[15]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[15]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[15]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[15]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[15]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[15]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[15]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[15] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[14]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[14]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[14]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[14]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[14]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[14]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[14]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[14] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[13]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[13]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[13]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[13]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[13]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[13]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[13]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[13]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[13] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[12]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[12]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[12]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[12]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[12]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[12]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[12]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[12] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[11]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[11]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[11]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[11]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[11]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[11]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[11]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[11] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[10]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[10]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[10]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[10]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[10]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[10]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[10]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[10] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[9]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[9]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[9]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[9]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[9]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[9]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[9]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[8]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[8]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[8]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[8]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[8]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[8]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[8]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[8]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[8] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[7]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[7]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[7]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[7]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[7]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[7]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[7]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[7] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[6]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[6]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[6]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[6]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[6]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[6]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[6]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[6] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[5]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[5]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[5]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[5]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[5]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[5]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[5]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[5] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[4]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[4]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[4]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[4]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[4]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[4]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[4]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[4] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[3]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[3]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[3]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[3]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[3]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[3]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[3]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[3] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[2]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[2]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[13].Registros/q_reg[2]' (FDCE) to 'Arc_Reg_escom/ciclo[12].Registros/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[12].Registros/q_reg[2]' (FDCE) to 'Arc_Reg_escom/ciclo[11].Registros/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[11].Registros/q_reg[2]' (FDCE) to 'Arc_Reg_escom/ciclo[10].Registros/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[10].Registros/q_reg[2]' (FDCE) to 'Arc_Reg_escom/ciclo[9].Registros/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[9].Registros/q_reg[2]' (FDCE) to 'Arc_Reg_escom/ciclo[8].Registros/q_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[2] )
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[15].Registros/q_reg[1]' (FDCE) to 'Arc_Reg_escom/ciclo[14].Registros/q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Arc_Reg_escom/ciclo[14].Registros/q_reg[1]' (FDCE) to 'Arc_Reg_escom/ciclo[13].Registros/q_reg[1]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Arc_Reg_escom/ciclo[8].Registros/q_reg[0] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:49 ; elapsed = 00:02:05 . Memory (MB): peak = 1022.867 ; gain = 572.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|mem_program | p_0_out    | 1024x18       | LUT            | 
+|mem_program | p_0_out    | 1024x18       | LUT            | 
++------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------+-------------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object              | Inference | Size (Depth x Width) | Primitives      | 
++------------+-------------------------+-----------+----------------------+-----------------+
+|ESCOMMips   | memo_dato_Escom/RAM_reg | Implied   | 1 K x 16             | RAM256X1S x 64	 | 
++------------+-------------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:51 ; elapsed = 00:02:08 . Memory (MB): peak = 1022.867 ; gain = 572.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++------------+-------------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object              | Inference | Size (Depth x Width) | Primitives      | 
++------------+-------------------------+-----------+----------------------+-----------------+
+|ESCOMMips   | memo_dato_Escom/RAM_reg | Implied   | 1 K x 16             | RAM256X1S x 64	 | 
++------------+-------------------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:54 ; elapsed = 00:02:11 . Memory (MB): peak = 1022.867 ; gain = 572.344
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:21 ; elapsed = 00:02:38 . Memory (MB): peak = 1022.867 ; gain = 572.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:21 ; elapsed = 00:02:38 . Memory (MB): peak = 1022.867 ; gain = 572.344
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:21 ; elapsed = 00:02:38 . Memory (MB): peak = 1022.867 ; gain = 572.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:21 ; elapsed = 00:02:38 . Memory (MB): peak = 1022.867 ; gain = 572.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:21 ; elapsed = 00:02:38 . Memory (MB): peak = 1022.867 ; gain = 572.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:21 ; elapsed = 00:02:38 . Memory (MB): peak = 1022.867 ; gain = 572.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |     8|
+|3     |LUT1      |    51|
+|4     |LUT2      |    39|
+|5     |LUT3      |    91|
+|6     |LUT4      |    60|
+|7     |LUT5      |    83|
+|8     |LUT6      |   271|
+|9     |MUXF7     |    25|
+|10    |RAM256X1S |    64|
+|11    |FDCE      |   262|
+|12    |FDPE      |     1|
+|13    |IBUF      |     2|
+|14    |OBUF      |   129|
++------+----------+------+
+
+Report Instance Areas: 
++------+-------------------------+------------+------+
+|      |Instance                 |Module      |Cells |
++------+-------------------------+------------+------+
+|1     |top                      |            |  1087|
+|2     |  memo_dato_Escom        |memo_dato   |    80|
+|3     |  Arc_Reg_escom          |Arc_Reg     |   237|
+|4     |    \ciclo[0].Registros  |registro1   |    17|
+|5     |    \ciclo[1].Registros  |registro1_0 |    31|
+|6     |    \ciclo[2].Registros  |registro1_1 |    16|
+|7     |    \ciclo[3].Registros  |registro1_2 |    70|
+|8     |    \ciclo[4].Registros  |registro1_3 |    19|
+|9     |    \ciclo[5].Registros  |registro1_4 |    36|
+|10    |    \ciclo[6].Registros  |registro1_5 |    16|
+|11    |    \ciclo[7].Registros  |registro1_6 |    32|
+|12    |  UC_F_escom             |UC_F        |     8|
+|13    |    Bloq_Nivel_tb        |Bloq_Nivel  |     5|
+|14    |    Registro_tb          |Registro    |     3|
+|15    |  mem_program_escom      |mem_program |    16|
+|16    |  pila_escom             |pila        |   614|
++------+-------------------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:21 ; elapsed = 00:02:38 . Memory (MB): peak = 1022.867 ; gain = 572.344
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:21 ; elapsed = 00:02:39 . Memory (MB): peak = 1022.867 ; gain = 572.344
+Synthesis Optimization Complete : Time (s): cpu = 00:02:21 ; elapsed = 00:02:39 . Memory (MB): peak = 1022.867 ; gain = 572.344
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 1022.867 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 97 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1048.410 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 64 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 64 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+247 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:33 ; elapsed = 00:02:54 . Memory (MB): peak = 1048.410 ; gain = 622.707
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1048.410 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Ray/Desktop/Arquitectura/ESCOMips/ESCOMMips/ESCOMMips.runs/synth_1/ESCOMMips.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ESCOMMips_utilization_synth.rpt -pb ESCOMMips_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 30 21:43:11 2020...

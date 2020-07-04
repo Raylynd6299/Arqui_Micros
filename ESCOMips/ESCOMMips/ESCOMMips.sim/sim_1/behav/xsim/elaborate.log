@@ -1,0 +1,46 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 017dbb778c014328aa881da163ad0d89 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ESCOMMips_tb_behav xil_defaultlib.ESCOMMips_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.paquete
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.MfunCode [mfuncode_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux5 [mux5_default]
+Compiling architecture behavioral of entity xil_defaultlib.MopCode [mopcode_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux20 [mux20_default]
+Compiling architecture behavioral of entity xil_defaultlib.Deco_Instru [deco_instru_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bloq_Nivel [bloq_nivel_default]
+Compiling architecture behavioral of entity xil_defaultlib.Registro [registro_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bloq_Cond [bloq_cond_default]
+Compiling architecture behavioral of entity xil_defaultlib.Uni_Con [uni_con_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC_F [uc_f_default]
+Compiling architecture behavioral of entity xil_defaultlib.SDMP [sdmp_default]
+Compiling architecture behavioral of entity xil_defaultlib.pila [pila_default]
+Compiling architecture behavioral of entity xil_defaultlib.mem_program [mem_program_default]
+Compiling architecture behavioral of entity xil_defaultlib.SR2 [sr2_default]
+Compiling architecture behavioral of entity xil_defaultlib.SWD [swd_default]
+Compiling architecture behavioral of entity xil_defaultlib.extDIR [extdir_default]
+Compiling architecture behavioral of entity xil_defaultlib.extSIG [extsig_default]
+Compiling architecture behavioral of entity xil_defaultlib.SEXT [sext_default]
+Compiling architecture behavioral of entity xil_defaultlib.registro1 [registro1_default]
+Compiling architecture behavioral of entity xil_defaultlib.demux_16 [demux_16_default]
+Compiling architecture behavioral of entity xil_defaultlib.Barrel [barrel_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux2_1 [mux2_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_16 [mux_16_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arc_Reg [arc_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.suma1 [suma1_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu1 [alu1_default]
+Compiling architecture behavioral of entity xil_defaultlib.aluN [alun_default]
+Compiling architecture behavioral of entity xil_defaultlib.memo_dato [memo_dato_default]
+Compiling architecture behavioral of entity xil_defaultlib.ESCOMMips [escommips_default]
+Compiling architecture behavioral of entity xil_defaultlib.escommips_tb
+Built simulation snapshot ESCOMMips_tb_behav

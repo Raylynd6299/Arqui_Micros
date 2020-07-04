@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Barrel.srcs/sources_1/imports/Archivo de registros/Barrel.vhd" \
+"../../../../Barrel.srcs/sim_1/imports/Archivo de registros/Barrel_tb.vhd" \
+
+# Do not sort compile order
+nosort

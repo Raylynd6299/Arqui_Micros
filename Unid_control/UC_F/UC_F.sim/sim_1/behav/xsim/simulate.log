@@ -1,0 +1,26 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Error: File C:\Users\Ray\Desktop\Arquitectura\Unid_control\UC_F\Entrada.txt is already at the end of file, nothing to read
+Time: 620 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 620 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 620 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 620 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 620 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 620 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd
+Error: File C:\Users\Ray\Desktop\Arquitectura\Unid_control\UC_F\Entrada.txt is already at the end of file, nothing to read
+Time: 630 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 630 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 630 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 630 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 630 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 630 ns  Iteration: 0  Process: /UC_F_tb/simulacion  File: C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd

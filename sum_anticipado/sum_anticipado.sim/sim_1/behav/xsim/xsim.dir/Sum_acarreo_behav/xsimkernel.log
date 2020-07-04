@@ -1,0 +1,7 @@
+Running: xsim.dir/Sum_acarreo_behav/xsimk.exe -simmode gui -wdb Sum_acarreo_behav.wdb -simrunnum 0 -socket 49874
+Design successfully loaded
+Design Loading Memory Usage: 5696 KB (Peak: 5696 KB)
+Design Loading CPU Usage: 78 ms
+Simulation completed
+Simulation Memory Usage: 6304 KB (Peak: 6304 KB)
+Simulation CPU Usage: 109 ms

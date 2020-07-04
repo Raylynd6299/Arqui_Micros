@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"tb_arch_reg_func_synth.vhd" \
+"../../../../../arcchivo_de_registro.srcs/sim_1/new/tb_arch_reg.vhd" \
+
+# Do not sort compile order
+nosort

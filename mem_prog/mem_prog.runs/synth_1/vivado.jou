@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Apr  2 17:52:11 2020
+# Process ID: 908
+# Current directory: C:/Users/Ray/Desktop/Arquitectura/mem_prog/mem_prog.runs/synth_1
+# Command line: vivado.exe -log mem_program.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mem_program.tcl
+# Log file: C:/Users/Ray/Desktop/Arquitectura/mem_prog/mem_prog.runs/synth_1/mem_program.vds
+# Journal file: C:/Users/Ray/Desktop/Arquitectura/mem_prog/mem_prog.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mem_program.tcl -notrace

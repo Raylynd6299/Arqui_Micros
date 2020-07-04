@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sources_1/new/UC_F.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UC_F'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ray/Desktop/Arquitectura/Unid_control/UC_F/UC_F.srcs/sim_1/new/UC_F_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UC_F_tb'

@@ -1,0 +1,1 @@
+-wto "1c6fb8e485b64e318de9f47077086c0b" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Bloq_Cond_tb_behav" "xil_defaultlib.Bloq_Cond_tb" -log "elaborate.log" 

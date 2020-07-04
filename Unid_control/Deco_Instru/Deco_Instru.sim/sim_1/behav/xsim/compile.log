@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ray/Desktop/Arquitectura/Unid_control/Deco_Instru/Deco_Instru.srcs/sources_1/new/Deco_Instru.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Deco_Instru'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ray/Desktop/Arquitectura/Unid_control/Deco_Instru/Deco_Instru.srcs/sim_1/new/Deco_Instru_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Deco_Instru_tb'
